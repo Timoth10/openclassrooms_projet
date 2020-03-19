@@ -1,2 +1,2 @@
 # openclassrooms_projet
-projet étudiant pour openclaasrooms
+projet étudiant numéro 2 pour openclassrooms
