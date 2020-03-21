@@ -44,59 +44,6 @@ header h2 {
 	font-weight: bold;
 }
 
-/*nav*/
-.desktop {
-	display: none;
-    background-color:#cfd8dc ;
-    color: #1ABC9C;
-}
-
-.mobile {
-    text-align: right;
-    min-height: 70px;
-    line-height: 70px;
-}
-
-.menu {
-    margin: 0 30px 0 0;
-    text-align: center;
-    width: 100%;
-    display: none;
-}
-
-.menu a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #1ABC9C;
-    line-height: 70px;
-    display: block;
-    margin: 0;
-    width: 100%;
-}
-
-label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: block;
-    text-align: right;
-    cursor: pointer;
-    width: 34px;
-}
-
-#toggle {
-    display: none;
-}
-
-#toggle:checked + .menu {
-    display: block;
-    background: #cfd8dc;
-}
-
-.menu a:active {
-    background-color: #cfd8dc;
-}
-
 /*aside*/
 aside {
 	background-color: #1ABC9C;
@@ -204,14 +151,6 @@ h3 {
 
 .colonne_une_references p, .colonne_deux_references p{
 	margin: 6px 0 6px 0;
-}
-
-/*footer*/
-footer {
-	text-align: center;
-	padding: 20px 0;
-	color: #1ABC9C;
-	background-color: #cfd8dc;
 }
 
 /*Media Queries*/
