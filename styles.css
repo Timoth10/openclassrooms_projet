@@ -112,12 +112,7 @@ aside h3 + p {
 }
 
 /*main text*/
-.parent_colonnes {
-	border-radius: 7px;
-	box-shadow: 0 0 10px 0 rgba(199,199,199,1);
-	margin: 15px;
-	padding: 10px 0;
-}
+
 
 main h3 + p {
 	font-family: Arial;
@@ -130,7 +125,7 @@ main p, main h3 {
 main h2 {
 	border-bottom: solid #1ABC9C 2px;
 	margin: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 10px
 }
 
 h2 i {
