@@ -21,9 +21,9 @@ header {
 	text-align: center; /*desktop left*/
 }
 
-.underline {
+/*.underline {
     text-decoration: underline solid #1ABC9C;
-}
+}*/
 
 .img-circle {
     border-radius: 75px;
@@ -165,31 +165,6 @@ h3 {
 
 /*Media Queries*/
 @media (min-width: 768px) and (orientation: landscape) {
-	.mobile {
-		display: none;
-	}
-
-	.desktop {
-		display: contents;
-		display: flex;
-		height: 70px;
-		background-color: #cfd8dc;
-	}
-
-	.desktop a {
-		text-decoration: none;
-		flex: 1;
-		margin: auto;
-		text-align: center;
-		color: #1ABC9C;
-		text-transform: uppercase;
-	}
-
-	.desktop a:hover {
-		color: #1ABC9C;
-		font-weight: bold;
-		font-size: 1rem;
-	}
 
 	header {
     	display: flex;
@@ -207,10 +182,15 @@ h3 {
 		display: flex;
 		flex-direction: column;
 	}
+    
 
 	#about {
 		flex-grow: 3;
 	}
+    
+    .underline {
+        text-decoration: underline solid #1ABC9C;
+    }
 	
     .colonne_une, aside {
     	flex: 0.8;
@@ -233,4 +213,5 @@ h3 {
     .colonne_une_references, .colonne_deux_references {
     	flex: 1;
     }
+    
 }
