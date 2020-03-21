@@ -21,8 +21,8 @@ header {
 	text-align: center; /*desktop left*/
 }
 
-hr {
-    margin: 2px 30px;
+.underline {
+    text-decoration: underline solid #1ABC9C;
 }
 
 .img-circle {
@@ -95,13 +95,14 @@ aside h3 + p {
 }
 
 #hobbies i {
-	font-size: 1.5em;
+	font-size: 0.7em;
 	margin-right: 5px;
 	border: 2px solid #cfd8dc;
 	border-radius: 35px;
 	padding: 15px;
 	color: #cfd8dc;
 }
+
 
 .loisirs {
 	display: flex;
@@ -112,7 +113,12 @@ aside h3 + p {
 }
 
 /*main text*/
-
+/*.parent_colonnes {
+	border-radius: 7px;
+	box-shadow: 0 0 10px 0 rgba(199,199,199,1);
+	margin: 15px;
+	padding: 10px 0;
+}*/
 
 main h3 + p {
 	font-family: Arial;
@@ -120,12 +126,14 @@ main h3 + p {
 
 main p, main h3 {
 	padding: 0 15px;
+    font-size: inherit;
 }
 
 main h2 {
 	border-bottom: solid #1ABC9C 2px;
 	margin: 30px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    font-size: inherit;
 }
 
 h2 i {
@@ -210,9 +218,9 @@ h3 {
     }
 
 	.parent_colonnes {
-		border: none;
-		box-shadow: none;
+		display: none;
 	}
+    
 
 	.colonne_deux, main {
     	flex: 2;
