@@ -113,12 +113,11 @@ aside h3 + p {
 }
 
 /*main text*/
-/*.parent_colonnes {
-	border-radius: 7px;
+.parent_colonnes {
 	box-shadow: 0 0 10px 0 rgba(199,199,199,1);
 	margin: 15px;
 	padding: 10px 0;
-}*/
+}
 
 main h3 + p {
 	font-family: Arial;
@@ -208,6 +207,7 @@ h3 {
 
     .parent_aside_main, .parent_colonnes {
     	display: flex;
+        box-shadow: none;
     }
 
     .colonne_une_references, .colonne_deux_references {
