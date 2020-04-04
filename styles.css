@@ -26,6 +26,7 @@ header {
 }*/
 
 .img-circle {
+    border: 5px solid #73C6B6 ;
     border-radius: 75px;
     height: 150px;
     width: 150px;
