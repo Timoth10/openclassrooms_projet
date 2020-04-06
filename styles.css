@@ -120,6 +120,10 @@ aside h3 + p {
 	padding: 10px 0;
 }
 
+
+    
+}
+
 main h3 + p {
 	font-family: Arial;
 }
@@ -146,9 +150,13 @@ h2 i {
 }
 
 .date i {
-		padding-right: 16px;
-		color: #1ABC9C;
-	}
+    padding-right: 16px;
+    color: #1ABC9C;
+    font-size: 1rem;
+    
+}
+
+}
 
 .where {
 	margin: 0 0 16px 32px;
